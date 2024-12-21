@@ -1,10 +1,10 @@
 #a
-# number = int(input("Enter an integer from 1 to 10: "))
-# numerals = ['I','II','III','IV','V','VI','VII','VIII','IX','X']
+number = int(input("Enter an integer from 1 to 10: "))
+numerals = ['I','II','III','IV','V','VI','VII','VIII','IX','X']
 
-# for x in range(len(numerals)):
-#     if number == x:
-#         print (f"The Roman Numeral of {number} is {numerals[x-1]}")
+for x in range(len(numerals)):
+    if number == x:
+        print (f"The Roman Numeral of {number} is {numerals[x-1]}")
 
 
 
